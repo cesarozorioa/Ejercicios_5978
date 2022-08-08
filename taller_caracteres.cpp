@@ -11,5 +11,8 @@ void buscarLetra(char v[])
 }
 main()
 {
-
+    char letras[100];
+    llenaLetras(letras);
+    ordenaLetras(letras);
+    buscarLetra(letras);
 }
