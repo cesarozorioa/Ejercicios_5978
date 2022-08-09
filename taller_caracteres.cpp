@@ -9,7 +9,9 @@ void ordenaLetras(char v[])
     int i, j;
 }
 void buscarLetra(char v[]){
-    int i, j} main()
+    int i, j;
+} 
+main()
 {
     char letras[100];
     llenaLetras(letras);
