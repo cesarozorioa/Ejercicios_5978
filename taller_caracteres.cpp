@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <cstring>
 using namespace std;
 void llenaLetras(char v[])
 {
@@ -30,6 +31,13 @@ void llenaLetras(char v[])
 void ordenaLetras(char v[])
 {
     int i, j;
+    //implemento el metodo de seleccion
+    for(int i=0;i<strlen(v)-1;i++){
+        for(int j =0; j<strlen(v);j++){
+            //implementacion del metodo
+        }
+
+    }
 }
 void buscarLetra(char v[])
 {
