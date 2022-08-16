@@ -31,17 +31,13 @@ void llenaLetras(char v[])
 void ordenaLetras(char v[])
 {
     int i, j;
-    //implemento el metodo de seleccion
-    for(int i=0;i<strlen(v)-1;i++){
-        for(int j =0; j<strlen(v);j++){
-            //implementacion del metodo
-            if(v[i] > v[j]{
-                aux = v[i];
-                v[i] = v[j];
-                v[j] = aux
-                }
-           }
-
+    // implemento el metodo de seleccion
+    for (int i = 0; i < strlen(v) - 1; i++)
+    {
+        for (int j = 0; j < strlen(v); j++)
+        {
+            // implementacion del metodo
+        }
     }
 }
 void buscarLetra(char v[])
